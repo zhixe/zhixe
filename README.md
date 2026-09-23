@@ -153,19 +153,6 @@ Performance Engineering
 
 ---
 
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img
-  src="https://streak-stats.demolab.com?user=zhixe&theme=github-dark-blue&hide_border=true&background=0D1117&ring=2EA043&fire=2EA043&currStreakLabel=2EA043"
-  alt="GitHub Streak"
-/>
-
-</div>
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
