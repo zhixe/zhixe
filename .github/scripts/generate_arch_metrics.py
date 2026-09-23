@@ -169,7 +169,7 @@ ARCH_LOGO = [
     "  .`                                 `/",
 ]
 
-WIDTH = 920
+WIDTH = 960
 HEIGHT = 1060
 
 BG = "#0d1117"
@@ -238,7 +238,8 @@ svg.append(
     }}
 
     .logo {{
-        font-size: 13px;
+        font-size: 15px;
+        font-weight: 500;
         fill: {ARCH_BLUE};
         white-space: pre;
     }}
@@ -287,23 +288,24 @@ svg.append(
 """
 )
 
-logo_x = 50
-logo_y = 92
+logo_x = 35
+logo_y = 88
+logo_line_height = 17
 
 for i, line in enumerate(ARCH_LOGO):
     svg.append(
         f"""
 <text
     x="{logo_x}"
-    y="{logo_y + i * 14}"
+    y="{logo_y + i * logo_line_height}"
     class="mono logo"
     xml:space="preserve"
 >{escape(line).replace(" ", "&#160;")}</text>
 """
     )
 
-info_x = 390
-info_y = 105
+info_x = 460
+info_y = 110
 
 info_lines = [
     ("user", USERNAME),
