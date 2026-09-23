@@ -4,7 +4,7 @@
 
 ### Software Engineer · Data Engineer · Systems Builder
 
-I build software, data pipelines, and reliable systems.
+I build software, data platforms, and reliable production systems.
 
 Based in Malaysia 🇲🇾
 
@@ -19,11 +19,11 @@ Based in Malaysia 🇲🇾
 
 ## 🚀 About Me
 
-I'm a Software and Data Engineer interested in building systems that are practical, maintainable, and reliable.
+I'm a Software and Data Engineer interested in building systems that are practical, maintainable, scalable, and reliable.
 
-My work and interests sit across **software engineering, data engineering, backend systems, data platforms, infrastructure, and system architecture**.
+My work spans **software engineering, data engineering, backend systems, data platforms, infrastructure, system architecture, performance engineering, and release engineering**.
 
-I enjoy understanding how systems work end-to-end — from application logic and APIs to data pipelines, databases, infrastructure, deployment, and high availability.
+I enjoy understanding how systems work end-to-end — from application logic and APIs to data pipelines, databases, service integration, infrastructure, deployment, performance, and high availability.
 
 ---
 
@@ -31,12 +31,14 @@ I enjoy understanding how systems work end-to-end — from application logic and
 
 | Area | Focus |
 |---|---|
-| **Software Engineering** | Backend development, APIs, maintainable application architecture |
-| **Data Engineering** | Data pipelines, ETL/ELT, streaming, data warehouses and data lakes |
-| **Data Platforms** | Apache Doris, SQL Server, Kafka and analytical systems |
-| **Infrastructure** | Docker, Linux, Nginx and deployment environments |
-| **Reliability** | High availability, failover, system architecture and operational resilience |
-| **Engineering Practice** | Git, DataOps, SDLC and continuous improvement |
+| **Software Engineering** | Backend development, APIs, business workflows and maintainable application architecture |
+| **Data Engineering** | Data pipelines, ETL/ELT, streaming, data warehouses and analytical platforms |
+| **Data Platforms** | Apache Doris, SQL Server, Kafka and enterprise data systems |
+| **System Architecture** | Modular systems, service boundaries, async processing and resilient integrations |
+| **Infrastructure** | Linux, Docker, Nginx, Tomcat and production deployment environments |
+| **Reliability** | High availability, disaster recovery, failover and operational resilience |
+| **Performance Engineering** | Load testing, stress testing, latency analysis and concurrent-user validation |
+| **Release Engineering** | Git-based promotion, deployment verification, health checks and recovery |
 
 ---
 
@@ -73,7 +75,7 @@ I enjoy understanding how systems work end-to-end — from application logic and
 ![Data Warehouse](https://img.shields.io/badge/Data%20Warehouse-Analytics-7C3AED?style=flat-square)
 ![Streaming](https://img.shields.io/badge/Streaming-Real--time%20Data-FF6B35?style=flat-square)
 
-### Infrastructure & Engineering
+### Infrastructure & Release Engineering
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
@@ -83,13 +85,23 @@ I enjoy understanding how systems work end-to-end — from application logic and
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white)
 ![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white)
 
-### Testing & Reliability
+### Testing & Performance
 
 ![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white)
 ![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white)
+![Integration Testing](https://img.shields.io/badge/Integration%20Testing-181717?style=flat-square)
 ![Load Testing](https://img.shields.io/badge/Load%20Testing-181717?style=flat-square)
+![Stress Testing](https://img.shields.io/badge/Stress%20Testing-181717?style=flat-square)
+![Performance Engineering](https://img.shields.io/badge/Performance%20Engineering-238636?style=flat-square)
+
+### Architecture & Reliability
+
+![Modular Monolith](https://img.shields.io/badge/Modular%20Monolith-181717?style=flat-square)
 ![High Availability](https://img.shields.io/badge/High%20Availability-238636?style=flat-square)
 ![Disaster Recovery](https://img.shields.io/badge/Disaster%20Recovery-238636?style=flat-square)
+![Async Processing](https://img.shields.io/badge/Async%20Processing-1F6FEB?style=flat-square)
+![Observability](https://img.shields.io/badge/Observability-1F6FEB?style=flat-square)
+![Release Engineering](https://img.shields.io/badge/Release%20Engineering-8250DF?style=flat-square)
 
 ---
 
@@ -99,9 +111,9 @@ I enjoy understanding how systems work end-to-end — from application logic and
 Software Engineering
 ├── Backend Systems
 ├── REST APIs
+├── Business Workflows
 ├── Application Architecture
-├── Service Integration
-└── Reliable Services
+└── Service Integration
 
 Data Engineering
 ├── Data Pipelines
@@ -116,22 +128,24 @@ System Architecture
 ├── Layered Architecture
 ├── API Contract Design
 ├── Async Processing
+├── Service Boundaries
 └── Resilient Integration
 
-Platform & Infrastructure
-├── Docker
+Platform & Reliability
 ├── Linux
-├── Nginx
-├── Tomcat
-├── Deployment & Release Engineering
+├── Docker
+├── Reverse Proxy
 ├── High Availability
 ├── Disaster Recovery
+├── Deployment Verification
 └── Observability
 
-Quality Engineering
-├── Unit Testing
-├── Integration Testing
+Performance Engineering
+├── Unit & Integration Testing
 ├── Regression Testing
 ├── Smoke Testing
 ├── Load Testing
-└── Performance Testing
+├── Stress Testing
+├── Concurrent User Testing
+├── Latency Analysis
+└── Performance Monitoring
