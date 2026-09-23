@@ -164,11 +164,14 @@ Performance Engineering
 
 </div>
 
+---
+
 ## 🧊 3D Contribution Graph
 
 <div align="center">
 
 <img
+  width="95%"
   src="./profile-3d-contrib/profile-night-green.svg"
   alt="3D GitHub Contribution Graph"
 />
@@ -177,7 +180,7 @@ Performance Engineering
 
 ---
 
-## 🧩 Contribution
+## 🧩 Contribution Tetris
 
 <div align="center">
 
@@ -185,6 +188,20 @@ Performance Engineering
   width="95%"
   src="https://raw.githubusercontent.com/zhixe/zhixe/tetris-output/contribution-tetris.svg"
   alt="Tetris Contribution Graph"
+/>
+
+</div>
+
+---
+
+## 📊 Engineering Metrics
+
+<div align="center">
+
+<img
+  width="95%"
+  src="./github-metrics.svg"
+  alt="GitHub Engineering Metrics"
 />
 
 </div>
