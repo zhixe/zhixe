@@ -23,7 +23,7 @@ I'm a Software and Data Engineer interested in building systems that are practic
 
 My work spans **software engineering, data engineering, backend systems, data platforms, infrastructure, system architecture, performance engineering, and release engineering**.
 
-I enjoy understanding how systems work end-to-end — from application logic and APIs to data pipelines, databases, service integration, infrastructure, deployment, performance, and high availability.
+I enjoy understanding how systems work end-to-end from application logic and APIs to data pipelines, databases, service integration, infrastructure, deployment, performance, and high availability.
 
 ---
 
