@@ -166,7 +166,7 @@ Performance Engineering
 
 ---
 
-## 🧊 3D Contribution Graph
+## 🧊 Contribution Graph
 
 <div align="center">
 
