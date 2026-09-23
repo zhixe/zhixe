@@ -180,7 +180,7 @@ Performance Engineering
 
 ---
 
-## 🧩 Contribution Tetris
+## 🧩 Contribution
 
 <div align="center">
 
