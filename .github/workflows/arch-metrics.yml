@@ -1,4 +1,4 @@
-name: Generate Arch Metrics
+name: Generate Arch Engineering Console
 
 on:
   schedule:
@@ -15,15 +15,20 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      - name: Generate Arch metrics
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: "stable"
+
+      - name: Generate Arch engineering console
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
         run: |
-          python3 .github/scripts/generate_arch_metrics.py
+          go run .github/scripts/arch_metrics.go
 
       - name: Commit generated SVG
         run: |
@@ -35,6 +40,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update Arch profile metrics"
+            git commit -m "Update Arch engineering console"
             git push
           fi
