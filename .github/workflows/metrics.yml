@@ -3,7 +3,6 @@ name: Generate Engineering Metrics
 on:
   schedule:
     - cron: "0 17 * * *"
-
   workflow_dispatch:
 
 permissions:
@@ -37,3 +36,17 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_details: percentage
           plugin_languages_sections: most-used
+
+          extras_js: |
+            document.body.innerHTML = document.body.innerHTML
+              .replaceAll("zhixe@metrics", "zhixe@arch");
+
+          extras_css: |
+            :root {
+              --color-terminal-background: #0f172a;
+              --color-terminal-foreground: #f8fafc;
+            }
+
+            .terminal {
+              background: #0f172a !important;
+            }
