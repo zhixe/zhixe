@@ -149,3 +149,53 @@ Performance Engineering
 ├── Concurrent User Testing
 ├── Latency Analysis
 └── Performance Monitoring
+
+
+---
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img
+  src="https://streak-stats.demolab.com?user=zhixe&theme=github-dark-blue&hide_border=true&background=0D1117&ring=2EA043&fire=2EA043&currStreakLabel=2EA043"
+  alt="GitHub Streak"
+/>
+
+</div>
+
+---
+
+## 🧊 3D Contribution Graph
+
+<div align="center">
+
+<img
+  src="./profile-3d-contrib/profile-night-green.svg"
+  alt="3D GitHub Contribution Graph"
+/>
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/zhixe/zhixe/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/zhixe/zhixe/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="GitHub contribution snake"
+    src="https://raw.githubusercontent.com/zhixe/zhixe/output/github-contribution-grid-snake.svg"
+  />
+</picture>
+
+</div>
