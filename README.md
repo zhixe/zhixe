@@ -194,14 +194,14 @@ Performance Engineering
 
 ---
 
-## 📊 Engineering Metrics
+## 🖥️ Engineering Metrics
 
 <div align="center">
 
 <img
   width="95%"
-  src="./github-metrics.svg"
-  alt="GitHub Engineering Metrics"
+  src="./arch-metrics.svg"
+  alt="Amsyar Malek Arch Linux GitHub Metrics"
 />
 
 </div>
