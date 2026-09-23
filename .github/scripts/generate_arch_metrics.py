@@ -170,7 +170,7 @@ ARCH_LOGO = [
 ]
 
 WIDTH = 920
-HEIGHT = 1060
+HEIGHT = 1140
 
 BG = "#0d1117"
 TERMINAL_BG = "#111827"
@@ -336,7 +336,7 @@ for i, (key, value) in enumerate(info_lines):
 """
     )
 
-section_y = 410
+section_y = 500
 
 svg.append(
     f"""
@@ -383,7 +383,7 @@ for i, (label, value) in enumerate(right_metrics):
 """
     )
 
-lang_header_y = 580
+lang_header_y = 700
 
 svg.append(
     f"""
