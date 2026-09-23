@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="519" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="734" class="">
   
 
   <defs><style>@font-face {
@@ -38,17 +38,11 @@
   followed by <b>23</b> users
 </div>
 <div class="stdin"><span class="ps1-path">zhixe@metrics</span>:<span class="ps1-location">~</span># git status</div><div class="stdout"><b>Recent activity</b>
-  <b>15209</b> commits
+  <b>15211</b> commits
   <b>    0</b> pull requests reviewed
   <b>   29</b> pull requests opened
   <b>    0</b> issues opened
   <b>    2</b> issue comments
-</div>
-<div class="stdin"><span class="ps1-path">zhixe@metrics</span>:<span class="ps1-location">~</span># ls -lh github/repositories</div><div class="stdout">Total 70 repositories - 869 MB
--r--  <b>    0</b>  stargazers
--r--  <b>    0</b>  forks
--r--  <b>    0</b>  watchers
-dr-x  <b>    0</b>  packages
 </div>
 <div class="stdin"><span class="ps1-path">zhixe@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"></div>
 <div class="stdin"><span class="ps1-path">zhixe@metrics</span>:<span class="ps1-location">~</span># ncal -MB11</div><div class="stdout"><div class="isocalendar">
