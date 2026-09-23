@@ -240,6 +240,7 @@ svg.append(
     .logo {{
         font-size: 12px;
         fill: {ARCH_BLUE};
+        white-space: pre;
     }}
 </style>
 """
@@ -286,13 +287,18 @@ svg.append(
 """
 )
 
-logo_x = 45
+logo_x = 50
 logo_y = 92
 
 for i, line in enumerate(ARCH_LOGO):
     svg.append(
         f"""
-<text x="{logo_x}" y="{logo_y + i * 14}" class="mono logo">{escape(line)}</text>
+<text
+    x="{logo_x}"
+    y="{logo_y + i * 14}"
+    class="mono logo"
+    xml:space="preserve"
+>{escape(line)}</text>
 """
     )
 
