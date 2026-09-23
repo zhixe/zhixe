@@ -85,7 +85,7 @@
     zhixe@arch: ~
 </text>
 
-<g transform="translate(25 78) scale(1.35)">
+<g transform="translate(25 68) scale(1.35)">
 
 <text
     x="0"
@@ -241,38 +241,38 @@
 <text x="470" y="278" class="mono prompt">github</text>
 <text x="580" y="278" class="mono text">: github.com/zhixe</text>
 
-<text x="45" y="390" class="mono prompt">zhixe@arch ~ $</text>
-<text x="210" y="390" class="mono command">github-status</text>
+<text x="45" y="410" class="mono prompt">zhixe@arch ~ $</text>
+<text x="210" y="410" class="mono command">github-status</text>
 
-<text x="65" y="424" class="mono muted">Repositories</text>
-<text x="250" y="424" class="mono metric">67</text>
+<text x="65" y="444" class="mono muted">Repositories</text>
+<text x="250" y="444" class="mono metric">67</text>
 
-<text x="65" y="452" class="mono muted">Contributions</text>
-<text x="250" y="452" class="mono metric">682</text>
+<text x="65" y="472" class="mono muted">Contributions</text>
+<text x="250" y="472" class="mono metric">683</text>
 
-<text x="65" y="480" class="mono muted">Commits</text>
-<text x="250" y="480" class="mono metric">630</text>
+<text x="65" y="500" class="mono muted">Commits</text>
+<text x="250" y="500" class="mono metric">631</text>
 
-<text x="65" y="508" class="mono muted">Pull requests</text>
-<text x="250" y="508" class="mono metric">29</text>
+<text x="65" y="528" class="mono muted">Pull requests</text>
+<text x="250" y="528" class="mono metric">29</text>
 
-<text x="65" y="536" class="mono muted">Reviews</text>
-<text x="250" y="536" class="mono metric">0</text>
+<text x="65" y="556" class="mono muted">Reviews</text>
+<text x="250" y="556" class="mono metric">0</text>
 
-<text x="430" y="424" class="mono muted">Issues</text>
-<text x="620" y="424" class="mono metric">0</text>
+<text x="430" y="444" class="mono muted">Issues</text>
+<text x="620" y="444" class="mono metric">0</text>
 
-<text x="430" y="452" class="mono muted">Followers</text>
-<text x="620" y="452" class="mono metric">23</text>
+<text x="430" y="472" class="mono muted">Followers</text>
+<text x="620" y="472" class="mono metric">23</text>
 
-<text x="430" y="480" class="mono muted">Following</text>
-<text x="620" y="480" class="mono metric">10</text>
+<text x="430" y="500" class="mono muted">Following</text>
+<text x="620" y="500" class="mono metric">10</text>
 
-<text x="430" y="508" class="mono muted">Stars</text>
-<text x="620" y="508" class="mono metric">1</text>
+<text x="430" y="528" class="mono muted">Stars</text>
+<text x="620" y="528" class="mono metric">1</text>
 
-<text x="430" y="536" class="mono muted">Forks</text>
-<text x="620" y="536" class="mono metric">0</text>
+<text x="430" y="556" class="mono muted">Forks</text>
+<text x="620" y="556" class="mono metric">0</text>
 
 <text x="45" y="580" class="mono prompt">zhixe@arch ~ $</text>
 <text x="210" y="580" class="mono command">languages --top</text>
