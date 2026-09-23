@@ -166,6 +166,47 @@ Performance Engineering
 
 ---
 
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img
+  height="170"
+  src="https://github-readme-stats.vercel.app/api?username=zhixe&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"
+  alt="GitHub Stats"
+/>
+
+<img
+  height="170"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=zhixe&layout=compact&theme=github_dark&hide_border=true&langs_count=8"
+  alt="Top Languages"
+/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img
+  width="95%"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=zhixe&theme=github-dark&hide_border=true&area=true"
+  alt="GitHub Activity Graph"
+/>
+
+</div>
+
+## 🔥 GitHub Streak
+
+<div align="center">
+
+<img
+  src="https://streak-stats.demolab.com?user=zhixe&theme=github-dark-blue&hide_border=true&background=0D1117&ring=2EA043&fire=2EA043&currStreakLabel=2EA043"
+  alt="GitHub Streak"
+/>
+
+</div>
+
 ## 🧊 3D Contribution Graph
 
 <div align="center">
