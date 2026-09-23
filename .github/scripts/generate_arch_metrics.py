@@ -238,7 +238,7 @@ svg.append(
     }}
 
     .logo {{
-        font-size: 12px;
+        font-size: 13px;
         fill: {ARCH_BLUE};
         white-space: pre;
     }}
