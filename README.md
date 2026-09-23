@@ -180,20 +180,6 @@ Performance Engineering
 
 ---
 
-## 🧩 Contribution
-
-<div align="center">
-
-<img
-  width="95%"
-  src="https://raw.githubusercontent.com/zhixe/zhixe/tetris-output/contribution-tetris.svg"
-  alt="Tetris Contribution Graph"
-/>
-
-</div>
-
----
-
 ## 🖥️ Engineering Metrics
 
 <div align="center">
