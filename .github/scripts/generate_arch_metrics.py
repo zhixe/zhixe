@@ -289,7 +289,7 @@ svg.append(
 )
 
 logo_x = 25
-logo_y = 78
+logo_y = 68
 logo_line_height = 16
 logo_scale = 1.35
 
@@ -336,7 +336,7 @@ for i, (key, value) in enumerate(info_lines):
 """
     )
 
-section_y = 390
+section_y = 410
 
 svg.append(
     f"""
