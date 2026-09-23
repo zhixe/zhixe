@@ -25,7 +25,7 @@ jobs:
 
           template: terminal
 
-          base: header, activity, repositories
+          base: header, activity
 
           config_timezone: Asia/Kuala_Lumpur
           config_animations: yes
