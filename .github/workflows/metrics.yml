@@ -38,15 +38,28 @@ jobs:
           plugin_languages_sections: most-used
 
           extras_js: |
-            document.body.innerHTML = document.body.innerHTML
-              .replaceAll("zhixe@metrics", "zhixe@arch");
+            const walker = document.createTreeWalker(
+              document.body,
+              NodeFilter.SHOW_TEXT
+            );
 
-          extras_css: |
-            :root {
-              --color-terminal-background: #0f172a;
-              --color-terminal-foreground: #f8fafc;
+            const nodes = [];
+
+            while (walker.nextNode()) {
+              nodes.push(walker.currentNode);
             }
 
-            .terminal {
-              background: #0f172a !important;
+            for (const node of nodes) {
+              node.nodeValue = node.nodeValue
+                .replaceAll("zhixe@metrics", "zhixe@arch");
+            }
+
+          extras_css: |
+            html,
+            body {
+              background: #0d1117 !important;
+            }
+
+            body {
+              color: #e6edf3 !important;
             }
