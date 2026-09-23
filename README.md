@@ -179,7 +179,7 @@ Performance Engineering
 </div>
 
 ---
-
+<!--
 ## 🖥️ Engineering Console
 
 <div align="center">
@@ -188,6 +188,18 @@ Performance Engineering
   width="95%"
   src="./arch-metrics.svg"
   alt="Amsyar Malek Arch Linux GitHub Metrics"
+/>
+
+</div>
+-->
+## 🖥️ Engineering Console
+
+<div align="center">
+
+<img
+  width="95%"
+  src="./arch-metrics.svg"
+  alt="Amsyar Malek Arch Linux Engineering Console"
 />
 
 </div>
