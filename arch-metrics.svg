@@ -1,9 +1,9 @@
 
 <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="960"
+    width="920"
     height="1060"
-    viewBox="0 0 960 1060"
+    viewBox="0 0 920 1060"
 >
 
 <style>
@@ -45,18 +45,18 @@
     }
 
     .logo {
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 500;
         fill: #1793d1;
         white-space: pre;
     }
 </style>
 
-<rect width="960" height="1060" rx="16" fill="#0d1117"/>
+<rect width="920" height="1060" rx="16" fill="#0d1117"/>
 <rect
     x="14"
     y="14"
-    width="932"
+    width="892"
     height="1032"
     rx="14"
     fill="#111827"
@@ -66,7 +66,7 @@
 <rect
     x="14"
     y="14"
-    width="932"
+    width="892"
     height="44"
     rx="14"
     fill="#161b22"
@@ -77,7 +77,7 @@
 <circle cx="88" cy="36" r="7" fill="#27c93f"/>
 
 <text
-    x="480.0"
+    x="460.0"
     y="42"
     text-anchor="middle"
     class="mono muted"
@@ -85,159 +85,161 @@
     zhixe@arch: ~
 </text>
 
+<g transform="translate(25 78) scale(1.35)">
+
 <text
-    x="35"
-    y="88"
+    x="0"
+    y="0"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-`</text>
 
 <text
-    x="35"
-    y="105"
+    x="0"
+    y="16"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.o+`</text>
 
 <text
-    x="35"
-    y="122"
+    x="0"
+    y="32"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;`ooo/</text>
 
 <text
-    x="35"
-    y="139"
+    x="0"
+    y="48"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;`+oooo:</text>
 
 <text
-    x="35"
-    y="156"
+    x="0"
+    y="64"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;`+oooooo:</text>
 
 <text
-    x="35"
-    y="173"
+    x="0"
+    y="80"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-+oooooo+:</text>
 
 <text
-    x="35"
-    y="190"
+    x="0"
+    y="96"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;`/:-:++oooo+:</text>
 
 <text
-    x="35"
-    y="207"
+    x="0"
+    y="112"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;`/++++/+++++++:</text>
 
 <text
-    x="35"
-    y="224"
+    x="0"
+    y="128"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;`/++++++++++++++:</text>
 
 <text
-    x="35"
-    y="241"
+    x="0"
+    y="144"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;`/+++ooooooooooooo/`</text>
 
 <text
-    x="35"
-    y="258"
+    x="0"
+    y="160"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;./ooosssso++osssssso+`</text>
 
 <text
-    x="35"
-    y="275"
+    x="0"
+    y="176"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.oossssso-````/ossssss+`</text>
 
 <text
-    x="35"
-    y="292"
+    x="0"
+    y="192"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-osssssso.&#160;&#160;&#160;&#160;&#160;&#160;:ssssssso.</text>
 
 <text
-    x="35"
-    y="309"
+    x="0"
+    y="208"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;&#160;:osssssss/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;osssso+++.</text>
 
 <text
-    x="35"
-    y="326"
+    x="0"
+    y="224"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;&#160;&#160;/ossssssss/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+ssssooo/-</text>
 
 <text
-    x="35"
-    y="343"
+    x="0"
+    y="240"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;&#160;`/ossssso+/:-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-:/+osssso+-</text>
 
 <text
-    x="35"
-    y="360"
+    x="0"
+    y="256"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;&#160;`+sso+:-`&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;`.-/+oso:</text>
 
 <text
-    x="35"
-    y="377"
+    x="0"
+    y="272"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;`++:.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;`-/+/</text>
 
 <text
-    x="35"
-    y="394"
+    x="0"
+    y="288"
     class="mono logo"
     xml:space="preserve"
 >&#160;&#160;.`&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;`/</text>
+</g>
+<text x="470" y="110" class="mono prompt">user</text>
+<text x="580" y="110" class="mono text">: zhixe</text>
 
-<text x="460" y="110" class="mono prompt">user</text>
-<text x="570" y="110" class="mono text">: zhixe</text>
+<text x="470" y="138" class="mono prompt">name</text>
+<text x="580" y="138" class="mono text">: Amsyar Malek</text>
 
-<text x="460" y="138" class="mono prompt">name</text>
-<text x="570" y="138" class="mono text">: Amsyar Malek</text>
+<text x="470" y="166" class="mono prompt">os</text>
+<text x="580" y="166" class="mono text">: Arch Linux</text>
 
-<text x="460" y="166" class="mono prompt">os</text>
-<text x="570" y="166" class="mono text">: Arch Linux</text>
+<text x="470" y="194" class="mono prompt">role</text>
+<text x="580" y="194" class="mono text">: Software + Data Engineer</text>
 
-<text x="460" y="194" class="mono prompt">role</text>
-<text x="570" y="194" class="mono text">: Software + Data Engineer</text>
+<text x="470" y="222" class="mono prompt">shell</text>
+<text x="580" y="222" class="mono text">: zsh</text>
 
-<text x="460" y="222" class="mono prompt">shell</text>
-<text x="570" y="222" class="mono text">: zsh</text>
+<text x="470" y="250" class="mono prompt">location</text>
+<text x="580" y="250" class="mono text">: Malaysia</text>
 
-<text x="460" y="250" class="mono prompt">location</text>
-<text x="570" y="250" class="mono text">: Malaysia</text>
-
-<text x="460" y="278" class="mono prompt">github</text>
-<text x="570" y="278" class="mono text">: github.com/zhixe</text>
+<text x="470" y="278" class="mono prompt">github</text>
+<text x="580" y="278" class="mono text">: github.com/zhixe</text>
 
 <text x="45" y="390" class="mono prompt">zhixe@arch ~ $</text>
 <text x="210" y="390" class="mono command">github-status</text>
@@ -246,10 +248,10 @@
 <text x="250" y="424" class="mono metric">67</text>
 
 <text x="65" y="452" class="mono muted">Contributions</text>
-<text x="250" y="452" class="mono metric">681</text>
+<text x="250" y="452" class="mono metric">682</text>
 
 <text x="65" y="480" class="mono muted">Commits</text>
-<text x="250" y="480" class="mono metric">629</text>
+<text x="250" y="480" class="mono metric">630</text>
 
 <text x="65" y="508" class="mono muted">Pull requests</text>
 <text x="250" y="508" class="mono metric">29</text>
