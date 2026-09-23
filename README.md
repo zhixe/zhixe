@@ -102,7 +102,7 @@ I enjoy understanding how systems work end-to-end from application logic and API
 ![Async Processing](https://img.shields.io/badge/Async%20Processing-1F6FEB?style=flat-square)
 ![Observability](https://img.shields.io/badge/Observability-1F6FEB?style=flat-square)
 ![Release Engineering](https://img.shields.io/badge/Release%20Engineering-8250DF?style=flat-square)
-
+<!--
 ---
 
 ## 🧩 Engineering Interests
@@ -150,7 +150,7 @@ Performance Engineering
 ├── Latency Analysis
 └── Performance Monitoring
 ```
-
+-->
 ---
 
 ## 🔥 GitHub Streak
