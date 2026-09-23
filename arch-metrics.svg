@@ -1,0 +1,634 @@
+
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="900"
+    height="760"
+    viewBox="0 0 900 760"
+>
+
+<style>
+    .mono {
+        font-family: JetBrains Mono, Fira Code, Consolas, monospace;
+    }
+
+    .title {
+        font-size: 20px;
+        font-weight: 700;
+        fill: #f0f6fc;
+    }
+
+    .prompt {
+        font-size: 17px;
+        font-weight: 700;
+        fill: #1793d1;
+    }
+
+    .command {
+        font-size: 17px;
+        fill: #f0f6fc;
+    }
+
+    .text {
+        font-size: 16px;
+        fill: #c9d1d9;
+    }
+
+    .muted {
+        font-size: 14px;
+        fill: #8b949e;
+    }
+
+    .metric {
+        font-size: 16px;
+        font-weight: 700;
+        fill: #3fb950;
+    }
+
+    .logo {
+        font-size: 12px;
+        fill: #1793d1;
+    }
+</style>
+
+<rect
+    width="900"
+    height="760"
+    rx="16"
+    fill="#0d1117"
+/>
+
+<rect
+    x="14"
+    y="14"
+    width="872"
+    height="732"
+    rx="14"
+    fill="#111827"
+    stroke="#30363d"
+/>
+
+<rect
+    x="14"
+    y="14"
+    width="872"
+    height="44"
+    rx="14"
+    fill="#161b22"
+/>
+
+<circle cx="42" cy="36" r="7" fill="#ff5f56"/>
+<circle cx="65" cy="36" r="7" fill="#ffbd2e"/>
+<circle cx="88" cy="36" r="7" fill="#27c93f"/>
+
+<text
+    x="450.0"
+    y="42"
+    text-anchor="middle"
+    class="mono muted"
+>
+    zhixe@arch: ~
+</text>
+
+<text
+    x="45"
+    y="92"
+    class="mono logo"
+>                   -`</text>
+
+<text
+    x="45"
+    y="106"
+    class="mono logo"
+>                  .o+`</text>
+
+<text
+    x="45"
+    y="120"
+    class="mono logo"
+>                 `ooo/</text>
+
+<text
+    x="45"
+    y="134"
+    class="mono logo"
+>                `+oooo:</text>
+
+<text
+    x="45"
+    y="148"
+    class="mono logo"
+>               `+oooooo:</text>
+
+<text
+    x="45"
+    y="162"
+    class="mono logo"
+>               -+oooooo+:</text>
+
+<text
+    x="45"
+    y="176"
+    class="mono logo"
+>              `/:-:++oooo+:</text>
+
+<text
+    x="45"
+    y="190"
+    class="mono logo"
+>             `/++++/+++++++:</text>
+
+<text
+    x="45"
+    y="204"
+    class="mono logo"
+>            `/++++++++++++++:</text>
+
+<text
+    x="45"
+    y="218"
+    class="mono logo"
+>           `/+++ooooooooooooo/`</text>
+
+<text
+    x="45"
+    y="232"
+    class="mono logo"
+>          ./ooosssso++osssssso+`</text>
+
+<text
+    x="45"
+    y="246"
+    class="mono logo"
+>         .oossssso-````/ossssss+`</text>
+
+<text
+    x="45"
+    y="260"
+    class="mono logo"
+>        -osssssso.      :ssssssso.</text>
+
+<text
+    x="45"
+    y="274"
+    class="mono logo"
+>       :osssssss/        osssso+++.</text>
+
+<text
+    x="45"
+    y="288"
+    class="mono logo"
+>      /ossssssss/        +ssssooo/-</text>
+
+<text
+    x="45"
+    y="302"
+    class="mono logo"
+>    `/ossssso+/:-        -:/+osssso+-</text>
+
+<text
+    x="45"
+    y="316"
+    class="mono logo"
+>   `+sso+:-`                 `.-/+oso:</text>
+
+<text
+    x="45"
+    y="330"
+    class="mono logo"
+>  `++:.                           `-/+/</text>
+
+<text
+    x="45"
+    y="344"
+    class="mono logo"
+>  .`                                 `/</text>
+
+<text
+    x="390"
+    y="105"
+    class="mono prompt"
+>user</text>
+
+<text
+    x="500"
+    y="105"
+    class="mono text"
+>: zhixe</text>
+
+<text
+    x="390"
+    y="133"
+    class="mono prompt"
+>name</text>
+
+<text
+    x="500"
+    y="133"
+    class="mono text"
+>: Amsyar Malek</text>
+
+<text
+    x="390"
+    y="161"
+    class="mono prompt"
+>os</text>
+
+<text
+    x="500"
+    y="161"
+    class="mono text"
+>: Arch Linux</text>
+
+<text
+    x="390"
+    y="189"
+    class="mono prompt"
+>role</text>
+
+<text
+    x="500"
+    y="189"
+    class="mono text"
+>: Software + Data Engineer</text>
+
+<text
+    x="390"
+    y="217"
+    class="mono prompt"
+>shell</text>
+
+<text
+    x="500"
+    y="217"
+    class="mono text"
+>: zsh</text>
+
+<text
+    x="390"
+    y="245"
+    class="mono prompt"
+>location</text>
+
+<text
+    x="500"
+    y="245"
+    class="mono text"
+>: Malaysia</text>
+
+<text
+    x="390"
+    y="273"
+    class="mono prompt"
+>github</text>
+
+<text
+    x="500"
+    y="273"
+    class="mono text"
+>: github.com/zhixe</text>
+
+<text
+    x="45"
+    y="390"
+    class="mono prompt"
+>zhixe@arch ~ $</text>
+
+<text
+    x="210"
+    y="390"
+    class="mono command"
+>github-status</text>
+
+<text
+    x="65"
+    y="424"
+    class="mono muted"
+>Repositories</text>
+
+<text
+    x="250"
+    y="424"
+    class="mono metric"
+>67</text>
+
+<text
+    x="65"
+    y="448"
+    class="mono muted"
+>Contributions</text>
+
+<text
+    x="250"
+    y="448"
+    class="mono metric"
+>676</text>
+
+<text
+    x="65"
+    y="472"
+    class="mono muted"
+>Commits</text>
+
+<text
+    x="250"
+    y="472"
+    class="mono metric"
+>624</text>
+
+<text
+    x="65"
+    y="496"
+    class="mono muted"
+>Pull requests</text>
+
+<text
+    x="250"
+    y="496"
+    class="mono metric"
+>29</text>
+
+<text
+    x="65"
+    y="520"
+    class="mono muted"
+>Reviews</text>
+
+<text
+    x="250"
+    y="520"
+    class="mono metric"
+>0</text>
+
+<text
+    x="420"
+    y="424"
+    class="mono muted"
+>Issues</text>
+
+<text
+    x="600"
+    y="424"
+    class="mono metric"
+>0</text>
+
+<text
+    x="420"
+    y="448"
+    class="mono muted"
+>Followers</text>
+
+<text
+    x="600"
+    y="448"
+    class="mono metric"
+>23</text>
+
+<text
+    x="420"
+    y="472"
+    class="mono muted"
+>Following</text>
+
+<text
+    x="600"
+    y="472"
+    class="mono metric"
+>10</text>
+
+<text
+    x="420"
+    y="496"
+    class="mono muted"
+>Stars</text>
+
+<text
+    x="600"
+    y="496"
+    class="mono metric"
+>1</text>
+
+<text
+    x="420"
+    y="520"
+    class="mono muted"
+>Forks</text>
+
+<text
+    x="600"
+    y="520"
+    class="mono metric"
+>0</text>
+
+<text
+    x="45"
+    y="555"
+    class="mono prompt"
+>zhixe@arch ~ $</text>
+
+<text
+    x="210"
+    y="555"
+    class="mono command"
+>languages --top</text>
+
+<text
+    x="65"
+    y="601"
+    class="mono text"
+>Python</text>
+
+<rect
+    x="270"
+    y="591"
+    width="420"
+    height="12"
+    rx="6"
+    fill="#21262d"
+/>
+
+<rect
+    x="270"
+    y="591"
+    width="302.8"
+    height="12"
+    rx="6"
+    fill="#3572A5"
+/>
+
+<text
+    x="708"
+    y="601"
+    class="mono muted"
+>72.1%</text>
+
+<text
+    x="65"
+    y="629"
+    class="mono text"
+>JavaScript</text>
+
+<rect
+    x="270"
+    y="619"
+    width="420"
+    height="12"
+    rx="6"
+    fill="#21262d"
+/>
+
+<rect
+    x="270"
+    y="619"
+    width="50.8"
+    height="12"
+    rx="6"
+    fill="#f1e05a"
+/>
+
+<text
+    x="708"
+    y="629"
+    class="mono muted"
+>12.1%</text>
+
+<text
+    x="65"
+    y="657"
+    class="mono text"
+>TypeScript</text>
+
+<rect
+    x="270"
+    y="647"
+    width="420"
+    height="12"
+    rx="6"
+    fill="#21262d"
+/>
+
+<rect
+    x="270"
+    y="647"
+    width="35.7"
+    height="12"
+    rx="6"
+    fill="#3178c6"
+/>
+
+<text
+    x="708"
+    y="657"
+    class="mono muted"
+>8.5%</text>
+
+<text
+    x="65"
+    y="685"
+    class="mono text"
+>HTML</text>
+
+<rect
+    x="270"
+    y="675"
+    width="420"
+    height="12"
+    rx="6"
+    fill="#21262d"
+/>
+
+<rect
+    x="270"
+    y="675"
+    width="12.2"
+    height="12"
+    rx="6"
+    fill="#e34c26"
+/>
+
+<text
+    x="708"
+    y="685"
+    class="mono muted"
+>2.9%</text>
+
+<text
+    x="65"
+    y="713"
+    class="mono text"
+>Rust</text>
+
+<rect
+    x="270"
+    y="703"
+    width="420"
+    height="12"
+    rx="6"
+    fill="#21262d"
+/>
+
+<rect
+    x="270"
+    y="703"
+    width="10.1"
+    height="12"
+    rx="6"
+    fill="#dea584"
+/>
+
+<text
+    x="708"
+    y="713"
+    class="mono muted"
+>2.4%</text>
+
+<text
+    x="65"
+    y="741"
+    class="mono text"
+>Go</text>
+
+<rect
+    x="270"
+    y="731"
+    width="420"
+    height="12"
+    rx="6"
+    fill="#21262d"
+/>
+
+<rect
+    x="270"
+    y="731"
+    width="8.4"
+    height="12"
+    rx="6"
+    fill="#00ADD8"
+/>
+
+<text
+    x="708"
+    y="741"
+    class="mono muted"
+>2.0%</text>
+
+<text
+    x="45"
+    y="735"
+    class="mono prompt"
+>zhixe@arch ~ $</text>
+
+<rect
+    x="210"
+    y="721"
+    width="10"
+    height="18"
+    fill="#1793d1"
+>
+    <animate
+        attributeName="opacity"
+        values="1;0;1"
+        dur="1.1s"
+        repeatCount="indefinite"
+    />
+</rect>
+</svg>
