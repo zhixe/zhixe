@@ -86,7 +86,6 @@ query($login: String!) {
 }
 """
 
-
 data = graphql(QUERY, {"login": USERNAME})
 user = data["user"]
 
@@ -135,16 +134,13 @@ for repo in user["repositories"]["nodes"]:
         if edge["node"].get("color"):
             language_colors[language] = edge["node"]["color"]
 
-
 sorted_languages = sorted(
     languages.items(),
     key=lambda item: item[1],
     reverse=True,
-)[:6]
+)[:8]
 
-total_language_size = sum(
-    size for _, size in sorted_languages
-) or 1
+total_language_size = sum(size for _, size in sorted_languages) or 1
 
 
 def language_percent(size):
@@ -173,9 +169,8 @@ ARCH_LOGO = [
     "  .`                                 `/",
 ]
 
-
-WIDTH = 900
-HEIGHT = 760
+WIDTH = 920
+HEIGHT = 980
 
 BG = "#0d1117"
 TERMINAL_BG = "#111827"
@@ -186,10 +181,8 @@ WHITE = "#f0f6fc"
 TEXT = "#c9d1d9"
 MUTED = "#8b949e"
 GREEN = "#3fb950"
-YELLOW = "#d29922"
 
 FONT = "JetBrains Mono, Fira Code, Consolas, monospace"
-
 
 svg = []
 
@@ -254,13 +247,7 @@ svg.append(
 
 svg.append(
     f"""
-<rect
-    width="{WIDTH}"
-    height="{HEIGHT}"
-    rx="16"
-    fill="{BG}"
-/>
-
+<rect width="{WIDTH}" height="{HEIGHT}" rx="16" fill="{BG}"/>
 <rect
     x="14"
     y="14"
@@ -273,7 +260,6 @@ svg.append(
 """
 )
 
-# Terminal header
 svg.append(
     f"""
 <rect
@@ -300,22 +286,16 @@ svg.append(
 """
 )
 
-# Arch logo
 logo_x = 45
 logo_y = 92
 
 for i, line in enumerate(ARCH_LOGO):
     svg.append(
         f"""
-<text
-    x="{logo_x}"
-    y="{logo_y + i * 14}"
-    class="mono logo"
->{escape(line)}</text>
+<text x="{logo_x}" y="{logo_y + i * 14}" class="mono logo">{escape(line)}</text>
 """
     )
 
-# System info next to logo
 info_x = 390
 info_y = 105
 
@@ -334,37 +314,17 @@ for i, (key, value) in enumerate(info_lines):
 
     svg.append(
         f"""
-<text
-    x="{info_x}"
-    y="{y}"
-    class="mono prompt"
->{escape(key)}</text>
-
-<text
-    x="{info_x + 110}"
-    y="{y}"
-    class="mono text"
->: {escape(value)}</text>
+<text x="{info_x}" y="{y}" class="mono prompt">{escape(key)}</text>
+<text x="{info_x + 110}" y="{y}" class="mono text">: {escape(value)}</text>
 """
     )
 
-
-# github status command
 section_y = 390
 
 svg.append(
     f"""
-<text
-    x="45"
-    y="{section_y}"
-    class="mono prompt"
->zhixe@arch ~ $</text>
-
-<text
-    x="210"
-    y="{section_y}"
-    class="mono command"
->github-status</text>
+<text x="45" y="{section_y}" class="mono prompt">zhixe@arch ~ $</text>
+<text x="210" y="{section_y}" class="mono command">github-status</text>
 """
 )
 
@@ -387,82 +347,48 @@ right_metrics = metrics[5:]
 metric_y = section_y + 34
 
 for i, (label, value) in enumerate(left_metrics):
-    y = metric_y + i * 24
+    y = metric_y + i * 28
 
     svg.append(
         f"""
-<text
-    x="65"
-    y="{y}"
-    class="mono muted"
->{escape(label)}</text>
-
-<text
-    x="250"
-    y="{y}"
-    class="mono metric"
->{value}</text>
+<text x="65" y="{y}" class="mono muted">{escape(label)}</text>
+<text x="250" y="{y}" class="mono metric">{value}</text>
 """
     )
 
 for i, (label, value) in enumerate(right_metrics):
-    y = metric_y + i * 24
+    y = metric_y + i * 28
 
     svg.append(
         f"""
-<text
-    x="420"
-    y="{y}"
-    class="mono muted"
->{escape(label)}</text>
-
-<text
-    x="600"
-    y="{y}"
-    class="mono metric"
->{value}</text>
+<text x="430" y="{y}" class="mono muted">{escape(label)}</text>
+<text x="620" y="{y}" class="mono metric">{value}</text>
 """
     )
 
-
-# languages
-lang_header_y = 555
+lang_header_y = 580
 
 svg.append(
     f"""
-<text
-    x="45"
-    y="{lang_header_y}"
-    class="mono prompt"
->zhixe@arch ~ $</text>
-
-<text
-    x="210"
-    y="{lang_header_y}"
-    class="mono command"
->languages --top</text>
+<text x="45" y="{lang_header_y}" class="mono prompt">zhixe@arch ~ $</text>
+<text x="210" y="{lang_header_y}" class="mono command">languages --top</text>
 """
 )
 
 lang_y = lang_header_y + 36
 
-BAR_X = 270
+BAR_X = 280
 BAR_WIDTH = 420
 BAR_HEIGHT = 12
 
 for i, (language, size) in enumerate(sorted_languages):
     percent = language_percent(size)
-    y = lang_y + i * 28
-
+    y = lang_y + i * 34
     color = language_colors.get(language, ARCH_BLUE)
 
     svg.append(
         f"""
-<text
-    x="65"
-    y="{y + 10}"
-    class="mono text"
->{escape(language)}</text>
+<text x="65" y="{y + 10}" class="mono text">{escape(language)}</text>
 
 <rect
     x="{BAR_X}"
@@ -482,25 +408,15 @@ for i, (language, size) in enumerate(sorted_languages):
     fill="{color}"
 />
 
-<text
-    x="{BAR_X + BAR_WIDTH + 18}"
-    y="{y + 10}"
-    class="mono muted"
->{percent}%</text>
+<text x="{BAR_X + BAR_WIDTH + 18}" y="{y + 10}" class="mono muted">{percent}%</text>
 """
     )
 
-
-# footer prompt
-footer_y = 735
+footer_y = HEIGHT - 55
 
 svg.append(
     f"""
-<text
-    x="45"
-    y="{footer_y}"
-    class="mono prompt"
->zhixe@arch ~ $</text>
+<text x="45" y="{footer_y}" class="mono prompt">zhixe@arch ~ $</text>
 
 <rect
     x="210"
