@@ -44,16 +44,31 @@ I enjoy understanding how systems work end-to-end — from application logic and
 
 ### Languages
 
+![Java](https://img.shields.io/badge/Java%2017-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+
+### Software Engineering
+
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Hibernate](https://img.shields.io/badge/JPA%20%2F%20Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20APIs-005571?style=flat-square)
 
 ### Data Engineering & Databases
 
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 ![Apache Doris](https://img.shields.io/badge/Apache%20Doris-3B82F6?style=flat-square)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![IBM Informix](https://img.shields.io/badge/IBM%20Informix-052FAD?style=flat-square&logo=ibm&logoColor=white)
+![Liquibase](https://img.shields.io/badge/Liquibase-2962FF?style=flat-square&logo=liquibase&logoColor=white)
 ![ETL](https://img.shields.io/badge/ETL%20%2F%20ELT-Data%20Pipelines-4C8BF5?style=flat-square)
 ![Data Warehouse](https://img.shields.io/badge/Data%20Warehouse-Analytics-7C3AED?style=flat-square)
 ![Streaming](https://img.shields.io/badge/Streaming-Real--time%20Data-FF6B35?style=flat-square)
@@ -64,6 +79,17 @@ I enjoy understanding how systems work end-to-end — from application logic and
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=flat-square&logo=apachetomcat&logoColor=black)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white)
+
+### Testing & Reliability
+
+![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white)
+![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white)
+![Load Testing](https://img.shields.io/badge/Load%20Testing-181717?style=flat-square)
+![High Availability](https://img.shields.io/badge/High%20Availability-238636?style=flat-square)
+![Disaster Recovery](https://img.shields.io/badge/Disaster%20Recovery-238636?style=flat-square)
 
 ---
 
@@ -72,8 +98,9 @@ I enjoy understanding how systems work end-to-end — from application logic and
 ```text
 Software Engineering
 ├── Backend Systems
-├── APIs
+├── REST APIs
 ├── Application Architecture
+├── Service Integration
 └── Reliable Services
 
 Data Engineering
@@ -81,12 +108,30 @@ Data Engineering
 ├── ETL / ELT
 ├── Streaming
 ├── Data Warehouses
-└── Data Lakes
+├── Data Lakes
+└── Analytical Platforms
+
+System Architecture
+├── Modular Monolith
+├── Layered Architecture
+├── API Contract Design
+├── Async Processing
+└── Resilient Integration
 
 Platform & Infrastructure
 ├── Docker
 ├── Linux
 ├── Nginx
+├── Tomcat
+├── Deployment & Release Engineering
 ├── High Availability
-├── Failover
-└── System Architecture
+├── Disaster Recovery
+└── Observability
+
+Quality Engineering
+├── Unit Testing
+├── Integration Testing
+├── Regression Testing
+├── Smoke Testing
+├── Load Testing
+└── Performance Testing
