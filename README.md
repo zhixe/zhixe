@@ -166,7 +166,7 @@ Performance Engineering
 
 ---
 
-## 🧊 Contribution Graph
+## 🧊 Yearly Contribution Graph
 
 <div align="center">
 
