@@ -327,7 +327,7 @@ viewBox="0 0 920 1136"
 	x="250"
 	y="535.8"
 	class="mono metric"
->67</text>
+>68</text>
 
 <text
 	x="65"
@@ -339,7 +339,7 @@ viewBox="0 0 920 1136"
 	x="250"
 	y="563.8"
 	class="mono metric"
->685</text>
+>688</text>
 
 <text
 	x="65"
@@ -351,7 +351,7 @@ viewBox="0 0 920 1136"
 	x="250"
 	y="591.8"
 	class="mono metric"
->633</text>
+>635</text>
 
 <text
 	x="65"
@@ -467,7 +467,7 @@ viewBox="0 0 920 1136"
 <rect
 	x="280.0"
 	y="743.8"
-	width="294.1"
+	width="239.9"
 	height="12.0"
 	rx="6"
 	fill="#3572A5"
@@ -477,47 +477,17 @@ viewBox="0 0 920 1136"
 	x="718.0"
 	y="753.8"
 	class="mono muted"
->70.0%</text>
+>57.1%</text>
 
 <text
 	x="65"
 	y="787.8"
-	class="mono text"
->JavaScript</text>
-
-<rect
-	x="280.0"
-	y="777.8"
-	width="420.0"
-	height="12.0"
-	rx="6"
-	fill="#21262d"
-/>
-
-<rect
-	x="280.0"
-	y="777.8"
-	width="49.2"
-	height="12.0"
-	rx="6"
-	fill="#f1e05a"
-/>
-
-<text
-	x="718.0"
-	y="787.8"
-	class="mono muted"
->11.7%</text>
-
-<text
-	x="65"
-	y="821.8"
 	class="mono text"
 >TypeScript</text>
 
 <rect
 	x="280.0"
-	y="811.8"
+	y="777.8"
 	width="420.0"
 	height="12.0"
 	rx="6"
@@ -526,8 +496,8 @@ viewBox="0 0 920 1136"
 
 <rect
 	x="280.0"
-	y="811.8"
-	width="34.8"
+	y="777.8"
+	width="68.7"
 	height="12.0"
 	rx="6"
 	fill="#3178c6"
@@ -535,15 +505,45 @@ viewBox="0 0 920 1136"
 
 <text
 	x="718.0"
+	y="787.8"
+	class="mono muted"
+>16.4%</text>
+
+<text
+	x="65"
+	y="821.8"
+	class="mono text"
+>JavaScript</text>
+
+<rect
+	x="280.0"
+	y="811.8"
+	width="420.0"
+	height="12.0"
+	rx="6"
+	fill="#21262d"
+/>
+
+<rect
+	x="280.0"
+	y="811.8"
+	width="41.0"
+	height="12.0"
+	rx="6"
+	fill="#f1e05a"
+/>
+
+<text
+	x="718.0"
 	y="821.8"
 	class="mono muted"
->8.3%</text>
+>9.8%</text>
 
 <text
 	x="65"
 	y="855.8"
 	class="mono text"
->HTML</text>
+>Java</text>
 
 <rect
 	x="280.0"
@@ -557,7 +557,37 @@ viewBox="0 0 920 1136"
 <rect
 	x="280.0"
 	y="845.8"
-	width="12.0"
+	width="39.1"
+	height="12.0"
+	rx="6"
+	fill="#b07219"
+/>
+
+<text
+	x="718.0"
+	y="855.8"
+	class="mono muted"
+>9.3%</text>
+
+<text
+	x="65"
+	y="889.8"
+	class="mono text"
+>HTML</text>
+
+<rect
+	x="280.0"
+	y="879.8"
+	width="420.0"
+	height="12.0"
+	rx="6"
+	fill="#21262d"
+/>
+
+<rect
+	x="280.0"
+	y="879.8"
+	width="11.0"
 	height="12.0"
 	rx="6"
 	fill="#e34c26"
@@ -565,45 +595,15 @@ viewBox="0 0 920 1136"
 
 <text
 	x="718.0"
-	y="855.8"
-	class="mono muted"
->2.8%</text>
-
-<text
-	x="65"
-	y="889.8"
-	class="mono text"
->Rust</text>
-
-<rect
-	x="280.0"
-	y="879.8"
-	width="420.0"
-	height="12.0"
-	rx="6"
-	fill="#21262d"
-/>
-
-<rect
-	x="280.0"
-	y="879.8"
-	width="9.7"
-	height="12.0"
-	rx="6"
-	fill="#dea584"
-/>
-
-<text
-	x="718.0"
 	y="889.8"
 	class="mono muted"
->2.3%</text>
+>2.6%</text>
 
 <text
 	x="65"
 	y="923.8"
 	class="mono text"
->Go</text>
+>Rust</text>
 
 <rect
 	x="280.0"
@@ -617,10 +617,10 @@ viewBox="0 0 920 1136"
 <rect
 	x="280.0"
 	y="913.8"
-	width="8.2"
+	width="8.4"
 	height="12.0"
 	rx="6"
-	fill="#00ADD8"
+	fill="#dea584"
 />
 
 <text
@@ -633,7 +633,7 @@ viewBox="0 0 920 1136"
 	x="65"
 	y="957.8"
 	class="mono text"
->C</text>
+>Go</text>
 
 <rect
 	x="280.0"
@@ -647,17 +647,17 @@ viewBox="0 0 920 1136"
 <rect
 	x="280.0"
 	y="947.8"
-	width="6.4"
+	width="6.6"
 	height="12.0"
 	rx="6"
-	fill="#555555"
+	fill="#00ADD8"
 />
 
 <text
 	x="718.0"
 	y="957.8"
 	class="mono muted"
->1.5%</text>
+>1.6%</text>
 
 <text
 	x="65"
@@ -677,7 +677,7 @@ viewBox="0 0 920 1136"
 <rect
 	x="280.0"
 	y="981.8"
-	width="5.6"
+	width="5.4"
 	height="12.0"
 	rx="6"
 	fill="#663399"
