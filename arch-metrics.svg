@@ -2,8 +2,8 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="920"
-    height="1140"
-    viewBox="0 0 920 1140"
+    height="1136"
+    viewBox="0 0 920 1136"
 >
 
 <style>
@@ -25,6 +25,7 @@
 
     .command {
         font-size: 17px;
+        font-weight: 700;
         fill: #f0f6fc;
     }
 
@@ -52,12 +53,12 @@
     }
 </style>
 
-<rect width="920" height="1140" rx="16" fill="#0d1117"/>
+<rect width="920" height="1136" rx="16" fill="#0d1117"/>
 <rect
     x="14"
     y="14"
     width="892"
-    height="1112"
+    height="1108"
     rx="14"
     fill="#111827"
     stroke="#30363d"
@@ -241,47 +242,47 @@
 <text x="470" y="278" class="mono prompt">github</text>
 <text x="580" y="278" class="mono text">: github.com/zhixe</text>
 
-<text x="45" y="500" class="mono prompt">zhixe@arch ~ $</text>
-<text x="210" y="500" class="mono command">github-status</text>
+<text x="45" y="501" class="mono prompt">zhixe@arch ~ $</text>
+<text x="210" y="501" class="mono command">github-status</text>
 
-<text x="65" y="534" class="mono muted">Repositories</text>
-<text x="250" y="534" class="mono metric">67</text>
+<text x="65" y="535" class="mono muted">Repositories</text>
+<text x="250" y="535" class="mono metric">67</text>
 
-<text x="65" y="562" class="mono muted">Contributions</text>
-<text x="250" y="562" class="mono metric">683</text>
+<text x="65" y="563" class="mono muted">Contributions</text>
+<text x="250" y="563" class="mono metric">684</text>
 
-<text x="65" y="590" class="mono muted">Commits</text>
-<text x="250" y="590" class="mono metric">631</text>
+<text x="65" y="591" class="mono muted">Commits</text>
+<text x="250" y="591" class="mono metric">632</text>
 
-<text x="65" y="618" class="mono muted">Pull requests</text>
-<text x="250" y="618" class="mono metric">29</text>
+<text x="65" y="619" class="mono muted">Pull requests</text>
+<text x="250" y="619" class="mono metric">29</text>
 
-<text x="65" y="646" class="mono muted">Reviews</text>
-<text x="250" y="646" class="mono metric">0</text>
+<text x="65" y="647" class="mono muted">Reviews</text>
+<text x="250" y="647" class="mono metric">0</text>
 
-<text x="430" y="534" class="mono muted">Issues</text>
-<text x="620" y="534" class="mono metric">0</text>
+<text x="430" y="535" class="mono muted">Issues</text>
+<text x="620" y="535" class="mono metric">0</text>
 
-<text x="430" y="562" class="mono muted">Followers</text>
-<text x="620" y="562" class="mono metric">23</text>
+<text x="430" y="563" class="mono muted">Followers</text>
+<text x="620" y="563" class="mono metric">23</text>
 
-<text x="430" y="590" class="mono muted">Following</text>
-<text x="620" y="590" class="mono metric">10</text>
+<text x="430" y="591" class="mono muted">Following</text>
+<text x="620" y="591" class="mono metric">10</text>
 
-<text x="430" y="618" class="mono muted">Stars</text>
-<text x="620" y="618" class="mono metric">1</text>
+<text x="430" y="619" class="mono muted">Stars</text>
+<text x="620" y="619" class="mono metric">1</text>
 
-<text x="430" y="646" class="mono muted">Forks</text>
-<text x="620" y="646" class="mono metric">0</text>
+<text x="430" y="647" class="mono muted">Forks</text>
+<text x="620" y="647" class="mono metric">0</text>
 
-<text x="45" y="700" class="mono prompt">zhixe@arch ~ $</text>
-<text x="210" y="700" class="mono command">languages --top</text>
+<text x="45" y="707" class="mono prompt">zhixe@arch ~ $</text>
+<text x="210" y="707" class="mono command">languages --top</text>
 
-<text x="65" y="746" class="mono text">Python</text>
+<text x="65" y="753" class="mono text">Python</text>
 
 <rect
     x="280"
-    y="736"
+    y="743"
     width="420"
     height="12"
     rx="6"
@@ -290,20 +291,20 @@
 
 <rect
     x="280"
-    y="736"
+    y="743"
     width="294.0"
     height="12"
     rx="6"
     fill="#3572A5"
 />
 
-<text x="718" y="746" class="mono muted">70.0%</text>
+<text x="718" y="753" class="mono muted">70.0%</text>
 
-<text x="65" y="780" class="mono text">JavaScript</text>
+<text x="65" y="787" class="mono text">JavaScript</text>
 
 <rect
     x="280"
-    y="770"
+    y="777"
     width="420"
     height="12"
     rx="6"
@@ -312,20 +313,20 @@
 
 <rect
     x="280"
-    y="770"
+    y="777"
     width="49.1"
     height="12"
     rx="6"
     fill="#f1e05a"
 />
 
-<text x="718" y="780" class="mono muted">11.7%</text>
+<text x="718" y="787" class="mono muted">11.7%</text>
 
-<text x="65" y="814" class="mono text">TypeScript</text>
+<text x="65" y="821" class="mono text">TypeScript</text>
 
 <rect
     x="280"
-    y="804"
+    y="811"
     width="420"
     height="12"
     rx="6"
@@ -334,20 +335,20 @@
 
 <rect
     x="280"
-    y="804"
+    y="811"
     width="34.9"
     height="12"
     rx="6"
     fill="#3178c6"
 />
 
-<text x="718" y="814" class="mono muted">8.3%</text>
+<text x="718" y="821" class="mono muted">8.3%</text>
 
-<text x="65" y="848" class="mono text">HTML</text>
+<text x="65" y="855" class="mono text">HTML</text>
 
 <rect
     x="280"
-    y="838"
+    y="845"
     width="420"
     height="12"
     rx="6"
@@ -356,20 +357,20 @@
 
 <rect
     x="280"
-    y="838"
+    y="845"
     width="11.8"
     height="12"
     rx="6"
     fill="#e34c26"
 />
 
-<text x="718" y="848" class="mono muted">2.8%</text>
+<text x="718" y="855" class="mono muted">2.8%</text>
 
-<text x="65" y="882" class="mono text">Rust</text>
+<text x="65" y="889" class="mono text">Rust</text>
 
 <rect
     x="280"
-    y="872"
+    y="879"
     width="420"
     height="12"
     rx="6"
@@ -378,20 +379,20 @@
 
 <rect
     x="280"
-    y="872"
+    y="879"
     width="9.7"
     height="12"
     rx="6"
     fill="#dea584"
 />
 
-<text x="718" y="882" class="mono muted">2.3%</text>
+<text x="718" y="889" class="mono muted">2.3%</text>
 
-<text x="65" y="916" class="mono text">Go</text>
+<text x="65" y="923" class="mono text">Go</text>
 
 <rect
     x="280"
-    y="906"
+    y="913"
     width="420"
     height="12"
     rx="6"
@@ -400,20 +401,20 @@
 
 <rect
     x="280"
-    y="906"
+    y="913"
     width="8.4"
     height="12"
     rx="6"
     fill="#00ADD8"
 />
 
-<text x="718" y="916" class="mono muted">2.0%</text>
+<text x="718" y="923" class="mono muted">2.0%</text>
 
-<text x="65" y="950" class="mono text">C</text>
+<text x="65" y="957" class="mono text">C</text>
 
 <rect
     x="280"
-    y="940"
+    y="947"
     width="420"
     height="12"
     rx="6"
@@ -422,20 +423,20 @@
 
 <rect
     x="280"
-    y="940"
+    y="947"
     width="6.3"
     height="12"
     rx="6"
     fill="#555555"
 />
 
-<text x="718" y="950" class="mono muted">1.5%</text>
+<text x="718" y="957" class="mono muted">1.5%</text>
 
-<text x="65" y="984" class="mono text">CSS</text>
+<text x="65" y="991" class="mono text">CSS</text>
 
 <rect
     x="280"
-    y="974"
+    y="981"
     width="420"
     height="12"
     rx="6"
@@ -444,20 +445,20 @@
 
 <rect
     x="280"
-    y="974"
+    y="981"
     width="5.5"
     height="12"
     rx="6"
     fill="#663399"
 />
 
-<text x="718" y="984" class="mono muted">1.3%</text>
+<text x="718" y="991" class="mono muted">1.3%</text>
 
-<text x="45" y="1085" class="mono prompt">zhixe@arch ~ $</text>
+<text x="45" y="1081" class="mono prompt">zhixe@arch ~ $</text>
 
 <rect
     x="210"
-    y="1071"
+    y="1067"
     width="10"
     height="18"
     fill="#1793d1"
