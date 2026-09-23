@@ -108,7 +108,6 @@ forks = sum(repo["forkCount"] for repo in user["repositories"]["nodes"])
 created_at = datetime.fromisoformat(
     user["createdAt"].replace("Z", "+00:00")
 )
-
 now = datetime.now(timezone.utc)
 
 account_years = max(
@@ -170,7 +169,6 @@ ARCH_LOGO = [
 ]
 
 WIDTH = 920
-HEIGHT = 1140
 
 BG = "#0d1117"
 TERMINAL_BG = "#111827"
@@ -183,6 +181,73 @@ MUTED = "#8b949e"
 GREEN = "#3fb950"
 
 FONT = "JetBrains Mono, Fira Code, Consolas, monospace"
+
+# Layout config
+logo_x = 25
+logo_y = 68
+logo_line_height = 16
+logo_scale = 1.35
+
+info_x = 470
+info_y = 110
+info_row_gap = 28
+
+metric_row_gap = 28
+language_row_gap = 34
+
+BAR_X = 280
+BAR_WIDTH = 420
+BAR_HEIGHT = 12
+
+# Metrics data
+metrics = [
+    ("Repositories", repo_count),
+    ("Contributions", year_contributions),
+    ("Commits", commits),
+    ("Pull requests", pull_requests),
+    ("Reviews", reviews),
+    ("Issues", issues),
+    ("Followers", followers),
+    ("Following", following),
+    ("Stars", stars),
+    ("Forks", forks),
+]
+
+left_metrics = metrics[:5]
+right_metrics = metrics[5:]
+
+info_lines = [
+    ("user", USERNAME),
+    ("name", name),
+    ("os", "Arch Linux"),
+    ("role", "Software + Data Engineer"),
+    ("shell", "zsh"),
+    ("location", "Malaysia"),
+    ("github", f"github.com/{USERNAME}"),
+]
+
+# Dynamic layout calculation
+logo_bottom = logo_y + ((len(ARCH_LOGO) - 1) * logo_line_height * logo_scale)
+info_bottom = info_y + ((len(info_lines) - 1) * info_row_gap)
+
+top_block_bottom = max(logo_bottom, info_bottom)
+
+section_y = int(top_block_bottom + 45)
+metric_y = section_y + 34
+
+metrics_rows = max(len(left_metrics), len(right_metrics))
+metrics_bottom = metric_y + ((metrics_rows - 1) * metric_row_gap)
+
+lang_header_y = metrics_bottom + 60
+lang_y = lang_header_y + 36
+
+if sorted_languages:
+    languages_bottom = lang_y + ((len(sorted_languages) - 1) * language_row_gap)
+else:
+    languages_bottom = lang_y
+
+footer_y = int(languages_bottom + 100)
+HEIGHT = footer_y + 55
 
 svg = []
 
@@ -218,6 +283,7 @@ svg.append(
 
     .command {{
         font-size: 17px;
+        font-weight: 700;
         fill: {WHITE};
     }}
 
@@ -288,11 +354,7 @@ svg.append(
 """
 )
 
-logo_x = 25
-logo_y = 68
-logo_line_height = 16
-logo_scale = 1.35
-
+# Arch logo block
 svg.append(
     f"""
 <g transform="translate({logo_x} {logo_y}) scale({logo_scale})">
@@ -313,21 +375,9 @@ for i, line in enumerate(ARCH_LOGO):
 
 svg.append("</g>")
 
-info_x = 470
-info_y = 110
-
-info_lines = [
-    ("user", USERNAME),
-    ("name", name),
-    ("os", "Arch Linux"),
-    ("role", "Software + Data Engineer"),
-    ("shell", "zsh"),
-    ("location", "Malaysia"),
-    ("github", f"github.com/{USERNAME}"),
-]
-
+# Info block
 for i, (key, value) in enumerate(info_lines):
-    y = info_y + i * 28
+    y = info_y + i * info_row_gap
 
     svg.append(
         f"""
@@ -336,8 +386,7 @@ for i, (key, value) in enumerate(info_lines):
 """
     )
 
-section_y = 500
-
+# github-status header
 svg.append(
     f"""
 <text x="45" y="{section_y}" class="mono prompt">zhixe@arch ~ $</text>
@@ -345,26 +394,9 @@ svg.append(
 """
 )
 
-metrics = [
-    ("Repositories", repo_count),
-    ("Contributions", year_contributions),
-    ("Commits", commits),
-    ("Pull requests", pull_requests),
-    ("Reviews", reviews),
-    ("Issues", issues),
-    ("Followers", followers),
-    ("Following", following),
-    ("Stars", stars),
-    ("Forks", forks),
-]
-
-left_metrics = metrics[:5]
-right_metrics = metrics[5:]
-
-metric_y = section_y + 34
-
+# metrics block
 for i, (label, value) in enumerate(left_metrics):
-    y = metric_y + i * 28
+    y = metric_y + i * metric_row_gap
 
     svg.append(
         f"""
@@ -374,7 +406,7 @@ for i, (label, value) in enumerate(left_metrics):
     )
 
 for i, (label, value) in enumerate(right_metrics):
-    y = metric_y + i * 28
+    y = metric_y + i * metric_row_gap
 
     svg.append(
         f"""
@@ -383,8 +415,7 @@ for i, (label, value) in enumerate(right_metrics):
 """
     )
 
-lang_header_y = 700
-
+# languages header
 svg.append(
     f"""
 <text x="45" y="{lang_header_y}" class="mono prompt">zhixe@arch ~ $</text>
@@ -392,15 +423,10 @@ svg.append(
 """
 )
 
-lang_y = lang_header_y + 36
-
-BAR_X = 280
-BAR_WIDTH = 420
-BAR_HEIGHT = 12
-
+# languages block
 for i, (language, size) in enumerate(sorted_languages):
     percent = language_percent(size)
-    y = lang_y + i * 34
+    y = lang_y + i * language_row_gap
     color = language_colors.get(language, ARCH_BLUE)
 
     svg.append(
@@ -429,8 +455,7 @@ for i, (language, size) in enumerate(sorted_languages):
 """
     )
 
-footer_y = HEIGHT - 55
-
+# footer prompt
 svg.append(
     f"""
 <text x="45" y="{footer_y}" class="mono prompt">zhixe@arch ~ $</text>
@@ -458,3 +483,4 @@ with open(OUTPUT, "w", encoding="utf-8") as file:
     file.write("".join(svg))
 
 print(f"Generated {OUTPUT}")
+print(f"Computed layout: HEIGHT={HEIGHT}, section_y={section_y}, lang_header_y={lang_header_y}, footer_y={footer_y}")
