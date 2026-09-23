@@ -298,7 +298,7 @@ for i, line in enumerate(ARCH_LOGO):
     y="{logo_y + i * 14}"
     class="mono logo"
     xml:space="preserve"
->{escape(line)}</text>
+>{escape(line).replace(" ", "&#160;")}</text>
 """
     )
 
