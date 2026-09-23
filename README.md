@@ -182,7 +182,8 @@ Performance Engineering
 <div align="center">
 
 <img
-  src="https://raw.githubusercontent.com/zhixe/zhixe/output/contribution-tetris.svg"
+  width="95%"
+  src="https://raw.githubusercontent.com/zhixe/zhixe/tetris-output/contribution-tetris.svg"
   alt="Tetris Contribution Graph"
 />
 
