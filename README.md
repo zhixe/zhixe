@@ -177,6 +177,19 @@ Performance Engineering
 
 ---
 
+## 🧩 Contribution
+
+<div align="center">
+
+<img
+  src="https://raw.githubusercontent.com/zhixe/zhixe/output/contribution-tetris.svg"
+  alt="Tetris Contribution Graph"
+/>
+
+</div>
+
+<!--
+
 ## 🐍 Contribution Snake
 
 <div align="center">
@@ -197,3 +210,5 @@ Performance Engineering
 </picture>
 
 </div>
+
+-->
