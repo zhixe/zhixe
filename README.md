@@ -15,7 +15,7 @@
 
 ## 🧭 A little about me
 
-I'm a software and data engineer who enjoys following a problem across the whole system—from an API and its business logic, through data pipelines, to the infrastructure running it all.
+I'm a software and data engineer who enjoys following a problem across the whole system, from an API and its business logic through data pipelines to the infrastructure running it all.
 
 I care about software that is understandable to the people maintaining it and dependable for the people using it. That means thinking about deployment, performance, and recovery alongside the code.
 
