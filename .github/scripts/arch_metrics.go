@@ -817,6 +817,13 @@ viewBox="0 0 %d %d"
 		Language bars.
 	*/
 
+	if len(languages) == 0 {
+		fmt.Fprintf(&svg, `
+<text x="65" y="%.1f" class="mono text">Java · Python · TypeScript · JavaScript · SQL · Rust</text>
+<text x="65" y="%.1f" class="mono muted">Profile languages (no repository language data)</text>
+`, languageY+10, languageY+32)
+	}
+
 	for i, language := range languages {
 		y := languageY +
 			float64(i)*languageRowGap

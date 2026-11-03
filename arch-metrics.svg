@@ -449,6 +449,9 @@ viewBox="0 0 920 898"
 	class="mono command"
 >languages --top</text>
 
+<text x="65" y="753.8" class="mono text">Java · Python · TypeScript · JavaScript · SQL · Rust</text>
+<text x="65" y="775.8" class="mono muted">Profile languages (no repository language data)</text>
+
 <text
 	x="45"
 	y="843.8"

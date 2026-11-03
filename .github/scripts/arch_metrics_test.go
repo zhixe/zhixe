@@ -1,6 +1,22 @@
 package main
 
-import "testing"
+import (
+	"strings"
+	"testing"
+)
+
+func TestGenerateSVGLanguageFallback(t *testing.T) {
+	metrics := make([]metric, 5)
+	empty := generateSVG("zhixe", nil, metrics, nil)
+	if !strings.Contains(empty, "Profile languages (no repository language data)") || !strings.Contains(empty, "Java · Python") {
+		t.Fatal("expected profile languages when repository language data is unavailable")
+	}
+
+	withData := generateSVG("zhixe", nil, metrics, []languageStat{{Name: "Go", Color: "#00ADD8", Percentage: 100}})
+	if strings.Contains(withData, "Profile languages (no repository language data)") || !strings.Contains(withData, "100.0%") {
+		t.Fatal("expected repository language statistics when available")
+	}
+}
 
 func TestCalculateLanguagesAggregatesAndSorts(t *testing.T) {
 	repositories := []repository{
