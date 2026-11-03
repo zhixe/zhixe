@@ -1,41 +1,93 @@
+<div align="center">
+
 # Amsyar Malek
 
-**Software & Data Engineer** · Malaysia 🇲🇾
+### Software & Data Engineer · Malaysia 🇲🇾
 
-I work across the path from an API request to the data platform behind it—and the infrastructure that keeps both running.
+**Building the services, data flows, and infrastructure behind reliable systems.**
 
-[Portfolio](https://amsyar-malek.com) · [GitHub](https://github.com/zhixe)
+[![Portfolio](https://img.shields.io/badge/Portfolio-amsyar--malek.com-1793d1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://amsyar-malek.com)
+[![GitHub](https://img.shields.io/badge/GitHub-zhixe-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zhixe)
 
----
-
-## The work I enjoy
-
-I like understanding a system end to end: how application logic becomes an API, how data moves between services and into analytics, and how all of it behaves in production.
-
-My focus spans backend engineering and data platforms, with attention to the operational details that make systems easier to maintain: clear service boundaries, reliable deployments, performance testing, and recovery when things go wrong.
-
-### Where I spend my time
-
-- **Applications:** backend services, APIs, business workflows and service integration.
-- **Data:** ETL/ELT, streaming, data warehouses and analytical platforms.
-- **Production:** Linux, containers, deployment verification, high availability and disaster recovery.
-- **Performance:** load and stress testing, latency analysis and concurrent-user validation.
+</div>
 
 ---
 
-## My engineering toolkit
+## 🧭 A little about me
 
-The tools change with the problem. These are the languages, platforms and practices represented in my work.
+I'm a software and data engineer who enjoys following a problem across the whole system—from an API and its business logic, through data pipelines, to the infrastructure running it all.
 
-| | Tools & technologies |
-|---|---|
-| **Languages** | Java 17, Python, TypeScript, JavaScript, SQL, Rust |
-| **Applications & APIs** | Spring Boot, Spring Security, React, NestJS, Node.js, FastAPI, JPA/Hibernate, REST APIs |
-| **Data & streaming** | Apache Kafka, Apache Doris, SQL Server, IBM Informix, Liquibase, ETL/ELT, data pipelines, data warehousing |
-| **Infrastructure & delivery** | Linux, Docker, Git, Nginx, Tomcat, Gradle, PM2 |
-| **Testing & reliability** | JUnit, k6, integration testing, load and stress testing, observability, high availability, disaster recovery |
-| **Architecture** | Modular monoliths, asynchronous processing, service boundaries, release engineering |
+I care about software that is understandable to the people maintaining it and dependable for the people using it. That means thinking about deployment, performance, and recovery alongside the code.
 
+```text
+  build       →  backend services & APIs
+  connect     →  data pipelines & streaming
+  operate     →  Linux, deployments & reliability
+  improve     →  performance testing & observability
+```
+
+---
+
+## 🛠️ The tools behind the work
+
+### 💬 Languages
+
+![Java](https://img.shields.io/badge/Java%2017-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+
+### ⚙️ Applications & APIs
+
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Hibernate](https://img.shields.io/badge/JPA%20%2F%20Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20APIs-005571?style=flat-square)
+
+### 🌊 Data & Streaming
+
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Apache Doris](https://img.shields.io/badge/Apache%20Doris-3B82F6?style=flat-square)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![IBM Informix](https://img.shields.io/badge/IBM%20Informix-052FAD?style=flat-square&logo=ibm&logoColor=white)
+![Liquibase](https://img.shields.io/badge/Liquibase-2962FF?style=flat-square&logo=liquibase&logoColor=white)
+![ETL](https://img.shields.io/badge/ETL%20%2F%20ELT-Data%20Pipelines-4C8BF5?style=flat-square)
+![Data Warehouse](https://img.shields.io/badge/Data%20Warehouse-Analytics-7C3AED?style=flat-square)
+![Streaming](https://img.shields.io/badge/Streaming-Real--time%20Data-FF6B35?style=flat-square)
+
+### 🐧 Infrastructure & Delivery
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=flat-square&logo=apachetomcat&logoColor=black)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white)
+
+### 📈 Testing & Performance
+
+![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white)
+![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white)
+![Integration Testing](https://img.shields.io/badge/Integration%20Testing-181717?style=flat-square)
+![Load Testing](https://img.shields.io/badge/Load%20Testing-181717?style=flat-square)
+![Stress Testing](https://img.shields.io/badge/Stress%20Testing-181717?style=flat-square)
+![Performance Engineering](https://img.shields.io/badge/Performance%20Engineering-238636?style=flat-square)
+
+### 🧩 Architecture & Reliability
+
+![Modular Monolith](https://img.shields.io/badge/Modular%20Monolith-181717?style=flat-square)
+![High Availability](https://img.shields.io/badge/High%20Availability-238636?style=flat-square)
+![Disaster Recovery](https://img.shields.io/badge/Disaster%20Recovery-238636?style=flat-square)
+![Async Processing](https://img.shields.io/badge/Async%20Processing-1F6FEB?style=flat-square)
+![Observability](https://img.shields.io/badge/Observability-1F6FEB?style=flat-square)
+![Release Engineering](https://img.shields.io/badge/Release%20Engineering-8250DF?style=flat-square)
 <!--
 ---
 
