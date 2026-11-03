@@ -21,9 +21,13 @@ jobs:
         uses: actions/setup-go@v6
         with:
           go-version: "stable"
+          cache: false # No go.mod: this standalone generator uses only the standard library
 
-      - name: Test Go generator
+      - name: Validate and test Go generator
         run: |
+          test -f .github/scripts/arch_metrics.go
+          test -f .github/scripts/arch_metrics_test.go
+          test -z "$(gofmt -l .github/scripts/arch_metrics.go .github/scripts/arch_metrics_test.go)"
           cd .github/scripts
           GO111MODULE=off go test -v .
 
